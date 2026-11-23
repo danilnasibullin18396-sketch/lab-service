@@ -31,7 +31,7 @@ python app.py
 ### 3. Фронтенд
 В новом окне терминала:
 ```powershell
-в корневой папке проекта
+# в корневой папке проекта
 python -m http.server 8080 -d ./frontend
 ```
 Откройте http://localhost:8080
