@@ -9,7 +9,7 @@ frontend (браузер) --HTTP/JSON--> backend (Flask, :5000) --SQL--> Postgre
 ## API
 - `GET  /api/notes`  — список заметок
 - `POST /api/notes`  — добавить заметку, тело `{"text": "..."}`
-- `GET  /api/health` — проверка живости (и БД)
+- `GET  /api/health` — проверка живости (и БД)git log --oneline
 
 ## Запуск
 
