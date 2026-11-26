@@ -16,7 +16,7 @@ DB = {
     "password": os.getenv("DB_PASSWORD", ""),
     "dbname": os.getenv("DB_NAME", "appdb"),
 }
-# Идентификатор инстанса понадобится в Лабе 1 (балансировка nginx)
+
 INSTANCE_ID = os.getenv("INSTANCE_ID", socket.gethostname())
 
 app = Flask(__name__)
@@ -91,4 +91,3 @@ def add_note():
 if __name__ == "__main__":
     init_db()
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", "5000")))
-
