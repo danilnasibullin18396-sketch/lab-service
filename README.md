@@ -29,9 +29,8 @@ python app.py
 Проверка: http://localhost:5000/api/health → `{"status":"ok", ...}`
 
 ### 3. Фронтенд
-В новом окне терминала:
+В новом окне терминала в корневой папке проекта:
 ```powershell
-# в корневой папке проекта
 python -m http.server 8080 -d ./frontend
 ```
 Откройте http://localhost:8080
